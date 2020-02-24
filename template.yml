@@ -5,7 +5,7 @@ Resources:
     Type: AWS::S3::Bucket
     Properties:
       AccessControl: PublicRead
-      BucketName: !Sub '${AWS::StackName}-root'
+      BucketName: !Sub '${AWS::StackName}-adcounselling-root'
       WebsiteConfiguration:
         IndexDocument: index.html
         ErrorDocument: error.html
