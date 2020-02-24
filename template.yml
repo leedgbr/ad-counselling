@@ -36,6 +36,8 @@ Resources:
           Compress: true
           TargetOriginId: !Sub 'S3-${AWS::StackName}-root'
           ViewerProtocolPolicy: 'redirect-to-https'
+          ForwardedValues:
+            QueryString: false
         DefaultRootObject: 'index.html'
         Enabled: true
         HttpVersion: http2
@@ -58,5 +60,3 @@ Resources:
           CloudFrontDefaultCertificate: true
           MinimumProtocolVersion: TLSv1.1_2016
           SslSupportMethod: sni-only
-      ForwardedValues:
-        QueryString: false
