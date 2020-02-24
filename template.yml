@@ -56,7 +56,3 @@ Resources:
             DomainName: !GetAtt S3BucketRoot.DomainName
             Id: !Sub 'S3-${AWS::StackName}-root'
         PriceClass: PriceClass_All
-        ViewerCertificate:
-          CloudFrontDefaultCertificate: true
-          MinimumProtocolVersion: TLSv1.1_2016
-          SslSupportMethod: sni-only
