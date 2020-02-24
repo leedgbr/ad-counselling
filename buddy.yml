@@ -3,10 +3,10 @@
   ref_name: "master"
   ref_type: "BRANCH"
   actions:
-  - action: "Deploy Cloudformation"
-    type: "AWS_CLI"
-    trigger_time: "ON_EVERY_EXECUTION"
-    execute_commands:
-      - "aws cloudformation deploy --template-file ./template.yml --stack-name website"
-    region: "ap-southeast-2"
-    integration_hash: ""
+    - action: "Execute: aws cloudformation deploy --template-file ./template.yml --stack-name website"
+      type: "AWS_CLI"
+      region: "ap-southeast-2"
+      execute_commands:
+        - "aws cloudformation deploy --template-file ./template.yml --stack-name website"
+      trigger_condition: "ALWAYS"
+      integration_hash: "5e538faeaab2cb238773ae81"
