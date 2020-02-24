@@ -58,3 +58,5 @@ Resources:
           CloudFrontDefaultCertificate: true
           MinimumProtocolVersion: TLSv1.1_2016
           SslSupportMethod: sni-only
+        ForwardedValues:
+          QueryString: false
