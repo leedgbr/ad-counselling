@@ -7,7 +7,7 @@
       type: "AWS_CLI"
       region: "ap-southeast-2"
       execute_commands:
-        - "aws cloudformation deploy --template-file ./template.yml --stack-name website"
+        - "aws cloudformation deploy --template-file ./template.yml --stack-name website --no-fail-on-empty-changeset"
       trigger_condition: "ALWAYS"
       integration_hash: "5e538faeaab2cb238773ae81"
     - action: "Upload files to AWS S3/website-adcounselling-root"
