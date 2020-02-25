@@ -16,5 +16,5 @@
       local_path: "public/"
       remote_path: "/"
       bucket_name: "website-adcounselling-root"
-      acl: "PUBLIC_READ"
+      acl: "PRIVATE"
       integration_hash: "5e538faeaab2cb238773ae81"
