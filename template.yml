@@ -4,7 +4,7 @@ Resources:
   S3BucketRoot:
     Type: AWS::S3::Bucket
     Properties:
-      AccessControl: PublicRead
+      AccessControl: Private
       BucketName: !Sub '${AWS::StackName}-adcounselling-root'
       WebsiteConfiguration:
         IndexDocument: index.html
