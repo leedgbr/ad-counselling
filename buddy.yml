@@ -16,4 +16,6 @@
       local_path: "public"
       bucket_name: "website-adcounselling-root"
       acl: "PUBLIC_READ"
+      deployment_includes:
+       - "*.html"
       integration_hash: "5e538faeaab2cb238773ae81"
