@@ -1,6 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 Description: Static Website
 Resources:
+
   S3BucketRoot:
     Type: AWS::S3::Bucket
     Properties:
@@ -19,7 +20,8 @@ Resources:
         Statement:
           - Effect: 'Allow'
             Action: 's3:GetObject'
-            Principal: '*'
+            Principal:
+              AWS: !GetAtt CloudFrontOriginAccessIdentity.Arn
             Resource: !Sub '${S3BucketRoot.Arn}/*'
 
   CloudFrontOriginAccessIdentity:
