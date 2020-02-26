@@ -7,9 +7,6 @@ Resources:
     Properties:
       AccessControl: Private
       BucketName: !Sub '${AWS::StackName}-adcounselling-root'
-      WebsiteConfiguration:
-        IndexDocument: index.html
-        ErrorDocument: error.html
 
   S3BucketPolicy:
     Type: AWS::S3::BucketPolicy
