@@ -5,7 +5,6 @@ Resources:
   S3BucketRoot:
     Type: AWS::S3::Bucket
     Properties:
-      AccessControl: Private
       BucketName: !Sub '${AWS::StackName}-adcounselling-root'
 
   S3BucketPolicy:
@@ -43,7 +42,7 @@ Resources:
           ViewerProtocolPolicy: 'redirect-to-https'
           ForwardedValues:
             QueryString: false
-        DefaultRootObject: 'index.html'
+        DefaultRootObject: index.html
         CustomErrorResponses:
           - ErrorCode: '400'
             ResponseCode: '404'
