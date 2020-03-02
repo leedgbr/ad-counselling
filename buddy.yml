@@ -1,5 +1,6 @@
 - pipeline: "deploy"
-  trigger_mode: "ON_EVERY_PUSH"
+  trigger_mode: "MANUAL"
+  trigger_condition: "ALWAYS"
   ref_name: "master"
   ref_type: "BRANCH"
   actions:
