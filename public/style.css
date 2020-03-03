@@ -88,6 +88,14 @@ a.anchor {
     font-size: 1.3em;
 }
 
+.separator {
+    background-color: #7fc597;
+    height: 15px;
+    margin: 30px 0 0 0;
+    width: 100%;
+    width: 100vw;
+}
+
 /* [DOES NOT MATTER] */
 html, body {
     padding: 0;
