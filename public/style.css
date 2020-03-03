@@ -96,6 +96,16 @@ a.anchor {
     width: 100vw;
 }
 
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-style: inset;
+    border-width: 1px;
+}
+
 /* [DOES NOT MATTER] */
 html, body {
     padding: 0;
