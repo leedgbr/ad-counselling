@@ -2,7 +2,7 @@
 /* Wrapper */
 #page-nav {
     width: 100%;
-    background: #000;
+    background: #fff;
     position: sticky;
     top: 0;
 }
@@ -24,7 +24,7 @@
     box-sizing: border-box;
 }
 #page-nav ul li a {
-    color: #fff;
+    color: #000;
     text-decoration: none;
 }
 
@@ -33,8 +33,8 @@
     /* Show Hamburger */
     #page-nav label {
         display: inline-block;
-        color: #fff;
-        background: #a02620;
+        color: #000;
+        background: #whitw;
         font-style: normal;
         font-size: 1.2em;
         padding: 10px;
@@ -44,9 +44,9 @@
     #page-nav ul li {
         display: block;
     }
-    #page-nav ul li {
-        border-top: 1px solid #333;
-    }
+    /*#page-nav ul li {*/
+    /*    border-top: 1px solid #333;*/
+    /*}*/
 
     /* Toggle show/hide menu on checkbox click */
     #page-nav ul {
@@ -71,9 +71,26 @@ a.anchor {
     top: -50px;
 }
 
+.intro {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.intro h1 {
+    font-family: 'Stalemate', cursive;
+    font-size: 7em;
+    line-height: 0.6;
+    margin: 0 0;
+}
+
+.intro p {
+    margin: 0 0;
+    font-size: 1.3em;
+}
+
 /* [DOES NOT MATTER] */
 html, body {
     padding: 0;
     margin: 0;
-    font-family: arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
