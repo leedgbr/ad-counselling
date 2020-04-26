@@ -6,7 +6,7 @@
     position: sticky;
     top: 0;
     box-shadow: 5px 3px 3px #797979;
-    background-image: linear-gradient(to right, #7fc597, #ffffff);
+    background-image: linear-gradient(to right, #8CDEA2, #ffffff);
 }
 
 /* Hide Hamburger */
@@ -36,7 +36,6 @@
     #page-nav label {
         display: inline-block;
         color: #000;
-        background: #whitw;
         font-style: normal;
         font-size: 1.2em;
         padding: 10px;
@@ -83,11 +82,11 @@ a.anchor {
     font-family: 'Stalemate', cursive;
     font-size: 7em;
     line-height: 0.6;
-    margin: 0 0;
+    margin: 0;
 }
 
 .intro p {
-    margin: 0 0;
+    margin: 0;
     font-size: 1.3em;
     /*background-image: url("dandelion-small.jpg");*/
     /*background-repeat: repeat;*/
@@ -96,28 +95,54 @@ a.anchor {
 .separator {
     /*background-color: #7fc597;*/
     height: 15px;
-    margin: 0 0 0 0;
+    margin: 0 0 15px 0;
     width: 100%;
     width: 100vw;
     box-shadow: 5px 3px 3px #797979;
-    background-image: linear-gradient(to right, #7fc597, #ffffff);
+    background-image: linear-gradient(to right, #8CDEA2, #ffffff);
 }
 
 hr {
     display: block;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
     margin-left: 10px;
     margin-right: 10px;
-    height: 1px;
+    height: 3px;
     border: 0;
-    background: #333;
-    background-image: linear-gradient(to right, #ccc, #797979, #ccc);
+    /*background: #333;*/
+    background-image: linear-gradient(to right, white, #ACEB88, white);
 }
 
-.approach {
-    /*background-color: #c6e7ff;*/
-    /*background-image: linear-gradient(to right, white,#d4fcff);*/
+h1 {
+    font-weight: normal;
+    font-size: 1.5em;
+}
+
+.content1 {
+    background-color: #88EBDA;
+    margin: 15px 10px 15px 10px;
+    padding: 1px 10px 1px 10px;
+    box-shadow:0px 0px 10px #88EBDA;
+    text-align: center;
+}
+
+.content2 {
+    padding: 10px 10px 10px 10px;
+    margin: 10px 0px 10px 0px;
+    text-align: center;
+    background-color: #f5f5f5
+}
+
+#footer {
+    padding: 0 10px 0 10px;
+    text-align: center;
+}
+
+.mobile {
+    color: #797979;
+}
+
+.email {
+    color: #797979;
 }
 
 /* [DOES NOT MATTER] */
@@ -128,4 +153,5 @@ html, body {
     color: #797979;
     /*background-color: #f7fff6*/
     /*background-image: linear-gradient(to right, #ffffff, #ebfff7);*/
+    background-color: white
 }
