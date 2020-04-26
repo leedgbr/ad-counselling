@@ -2,9 +2,11 @@
 /* Wrapper */
 #page-nav {
     width: 100%;
-    background: #fff;
+    /*background: #7fc597;*/
     position: sticky;
     top: 0;
+    box-shadow: 5px 3px 3px #797979;
+    background-image: linear-gradient(to right, #7fc597, #ffffff);
 }
 
 /* Hide Hamburger */
@@ -24,7 +26,7 @@
     box-sizing: border-box;
 }
 #page-nav ul li a {
-    color: #000;
+    color: #5c5c5c;
     text-decoration: none;
 }
 
@@ -57,10 +59,6 @@
     }
 }
 
-#page-nav ul li a.selected {
-    color: red
-}
-
 a.anchor {
     display: block;
     position: relative;
@@ -73,8 +71,13 @@ a.anchor {
 
 .intro {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 0px;
+    padding-bottom: 39px;
+    padding-top: 70px;
+    /*#background-image: linear-gradient(90deg, #ffffff, #2a6bd8);*/
+    background-color: white
 }
+
 
 .intro h1 {
     font-family: 'Stalemate', cursive;
@@ -86,14 +89,18 @@ a.anchor {
 .intro p {
     margin: 0 0;
     font-size: 1.3em;
+    /*background-image: url("dandelion-small.jpg");*/
+    /*background-repeat: repeat;*/
 }
 
 .separator {
-    background-color: #7fc597;
+    /*background-color: #7fc597;*/
     height: 15px;
-    margin: 30px 0 0 0;
+    margin: 0 0 0 0;
     width: 100%;
     width: 100vw;
+    box-shadow: 5px 3px 3px #797979;
+    background-image: linear-gradient(to right, #7fc597, #ffffff);
 }
 
 hr {
@@ -102,8 +109,15 @@ hr {
     margin-bottom: 0.5em;
     margin-left: 10px;
     margin-right: 10px;
-    border-style: inset;
-    border-width: 1px;
+    height: 1px;
+    border: 0;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #797979, #ccc);
+}
+
+.approach {
+    /*background-color: #c6e7ff;*/
+    /*background-image: linear-gradient(to right, white,#d4fcff);*/
 }
 
 /* [DOES NOT MATTER] */
@@ -111,4 +125,7 @@ html, body {
     padding: 0;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
+    color: #797979;
+    /*background-color: #f7fff6*/
+    /*background-image: linear-gradient(to right, #ffffff, #ebfff7);*/
 }
