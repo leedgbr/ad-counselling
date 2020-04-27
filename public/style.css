@@ -2,11 +2,10 @@
 /* Wrapper */
 #page-nav {
     width: 100%;
-    /*background: #7fc597;*/
     position: sticky;
     top: 0;
     box-shadow: 5px 3px 3px #797979;
-    background-image: linear-gradient(to right, #8CDEA2, #ffffff);
+    background-image: linear-gradient(to right, #08c389, #ffffff);
 }
 
 /* Hide Hamburger */
@@ -128,7 +127,7 @@ h1 {
 }
 
 .fuzzybox {
-    background-color: #88EBDA;
+    background-color: #bef0ff;
     padding: 1px 10px 1px 10px;
     box-shadow: 0px 0px 10px #88EBDA;
 }
