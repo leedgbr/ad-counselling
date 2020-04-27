@@ -38,7 +38,7 @@
         display: inline-block;
         color: #000;
         font-style: normal;
-        font-size: 1.2em;
+        font-size: 0.9em;
         padding: 10px;
     }
 
@@ -82,7 +82,7 @@ a.anchor {
 
 .intro h1 {
     font-family: 'Stalemate', cursive;
-    font-size: 7em;
+    font-size: 4em;
     line-height: 0.6;
     margin: 0;
 }
@@ -116,7 +116,7 @@ hr {
 
 h1 {
     font-weight: normal;
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
 .content1 {
@@ -129,7 +129,7 @@ h1 {
 .fuzzybox {
     background-color: #bef0ff;
     padding: 1px 10px 1px 10px;
-    box-shadow: 0px 0px 10px #88EBDA;
+    box-shadow: 0px 0px 10px #bef0ff;
 }
 
 .content1 div.container {
@@ -172,6 +172,10 @@ h1 {
 
 table {
 
+}
+
+p, li, td {
+    font-size: 0.9em
 }
 
 /* [DOES NOT MATTER] */
